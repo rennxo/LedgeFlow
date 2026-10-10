@@ -18,7 +18,7 @@ public class IdempotencyKeyRecord {
     @Column(columnDefinition = "TEXT")
     private String responseBody;
 
-    @Column(nullable = false)
+    @Column
     private Integer httpStatus;
 
     @Column(nullable = false)
